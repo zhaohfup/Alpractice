@@ -8,6 +8,5 @@ import java.util.Stack;
 public class SortStack {
     public static void  sortStackByStack(Stack<Integer> stack){
         Stack<Integer> help = new Stack<>();
-
     }
 }
