@@ -1,4 +1,4 @@
-package main.java;
+package ex1;
 
 import java.util.Stack;
 
@@ -7,6 +7,6 @@ import java.util.Stack;
  */
 public class SortStack {
     public static void  sortStackByStack(Stack<Integer> stack){
-        Stack<Integer> help = new Stack<>();
+        Stack<Integer> help = new Stack<Integer>();
     }
 }

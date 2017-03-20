@@ -1,4 +1,4 @@
-package main.java;
+package ex1;
 
 import java.util.Stack;
 
@@ -11,8 +11,8 @@ public class TwoStacksQueue {
     public Stack<Integer> stackPop;
 
     public TwoStacksQueue() {
-        stackPush = new Stack<>();
-        stackPop = new Stack<>();
+        stackPush = new Stack<Integer>();
+        stackPop = new Stack<Integer>();
     }
 
     public void add(int pushInt) {

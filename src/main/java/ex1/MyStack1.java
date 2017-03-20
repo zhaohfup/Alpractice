@@ -1,4 +1,4 @@
-package main.java;
+package ex1;
 
 import java.util.Stack;
 
@@ -11,8 +11,8 @@ public class MyStack1 {
     private Stack<Integer> stackMin;
 
     public MyStack1() {
-        this.stackData = new Stack<>();
-        this.stackMin = new Stack<>();
+        this.stackData = new Stack<Integer>();
+        this.stackMin = new Stack<Integer>();
     }
 
     public void push(int newNum) {
